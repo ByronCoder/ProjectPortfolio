@@ -2,29 +2,16 @@
 
 This is a webpage to showcase my projects on GitHub.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hello, my name is Byron Blank and I am a web developer.
 
-### Markdown
+### Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Checkout my GitHub projects below. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+[Employee Data API]
+A simple REST API using ASP.NET Core, MongoDb and AWS Lambda Serverless
+[Source](https://github.com/ByronCoder/EmployeeDataApiMongoDbLamda)
+[Demo](https://github.com/ByronCoder/EmployeeDataApiMongoDbLamda)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
