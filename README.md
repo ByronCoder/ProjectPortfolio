@@ -1,4 +1,7 @@
 # Welcome to Byron Blank's Portfolio
+<img src="img/mypic.jpeg"
+     alt="My Picture"
+     style="float: left; margin-right: 10px;" />
 
 This is a webpage to showcase my projects on GitHub.  
 
