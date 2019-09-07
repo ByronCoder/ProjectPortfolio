@@ -30,6 +30,8 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.9.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-react-app": "^3.1.2",
         "bootstrap": "4.3.1",
         "gulp-less": "^4.0.1",
         "jquery": "3.4.1",
