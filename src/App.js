@@ -9,6 +9,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 import logo from './mypic.jpeg';
 import ProjectsTable from "./components/ProjectsTable"
+import ContactForm from "./components/ContactForm"
 
 function App() {
   return (
@@ -44,6 +45,19 @@ function App() {
             </div>
               
           </section>
+
+          <section className="page-section" id="contact">
+          <div className="container">
+          <h2>Contact Me</h2>
+             <ContactForm />
+          </div>
+          </section>
+
+        <footer className="footer text-center text-white">
+          <div class="container">
+             <small>Copyright &copy; Byron Blank 2019</small>
+          </div>
+        </footer>
       </div>
   
   );
