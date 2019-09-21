@@ -20,14 +20,14 @@ class ProjectsTable extends React.Component {
 
   render() {
     return(
-      <div className="row">
-          <table className="table table-dark">
+      <div className="table-responsive">
+          <table className="table table-dark table-portfolio w-auto">
             <thead>
               <tr>
-                  <th>Project Name</th>
-                  <th>Description</th>
-                  <th>Source</th>
-                  <th>Demo</th>
+                  <th scope="col">Project Name</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Source</th>
+                  <th scope="col">Demo</th>
               </tr>
             </thead>
            <tbody>

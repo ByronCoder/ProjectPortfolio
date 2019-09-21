@@ -14,24 +14,27 @@ import ContactForm from "./components/ContactForm"
 function App() {
   return (
     <div className="App">
-          <Navbar className="navbar" fixed="top">
-          <FontAwesomeIcon icon={faCode} size="2x" color="white"/>
-          <Navbar.Brand className="nav-brand" href="#home">Byron Blank's Portfolio</Navbar.Brand>
-            <Nav className="navbar-nav mx-auto">
+        <Navbar collapseOnSelect expand="lg" fixed="top">
+          <Navbar.Brand className="navbar-brand" href="#home"><FontAwesomeIcon icon={faCode} size="1x" color="white"/> Byron Blank's Portfolio</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ml-auto">
                 <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                 <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
+            </Navbar.Collapse>
           </Navbar>
 
           <header className="jumbotron text-black text-center">
-            <h1>Byron Blank's Portfolio</h1>
+            <h1 className="heading-text">Byron Blank's Portfolio</h1>
             <Image src={logo} alt="" className="portfolio-img rounded-circle" />
-            <p class="jumbotron-subheading font-weight-light mb-0">Web Developer</p>
+            <p className="jumbotron-subheading font-weight-light mb-0">Web Developer</p>
           </header>
           <section className="page-section" id="about">
-            <h2>About</h2>
-            <p>Hello, my name is Byron Blank and I am a web developer. You can find the projects in my portfolio below along with links to a demo and the source on GitHub.</p>
+            <h2 className="page-section-header">About</h2>
+            <p className="about-text">Hello, my name is Byron Blank and I am a web developer. You can find the projects in my portfolio below along with links to a demo and the source on GitHub.</p>
             <div>
               <a href="https://www.linkedin.com/in/byron-blank-aa942015/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="social-icon" icon={faLinkedin} size="5x" color="lightblue"/></a>
               <a href="https://github.com/ByronCoder" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="social-icon"icon={faGithub} size="5x" color="lightblue"/></a>
@@ -39,7 +42,7 @@ function App() {
           </section>
          
           <section className="page-section" id="portfolio">
-            <h2>Portfolio</h2>
+            <h2 className="page-section-header">Portfolio</h2>
             <div className="portDiv">
               <ProjectsTable />
             </div>
@@ -48,13 +51,13 @@ function App() {
 
           <section className="page-section" id="contact">
           <div className="container">
-          <h2>Contact Me</h2>
+          <h2 className="page-section-header">Contact Me</h2>
              <ContactForm />
           </div>
           </section>
 
         <footer className="footer text-center text-white">
-          <div class="container">
+          <div className="container">
              <small>Copyright &copy; Byron Blank 2019</small>
           </div>
         </footer>
